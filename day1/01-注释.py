@@ -8,10 +8,9 @@
 # TODO 单行注释
 # 语法: 就是一个#后写注释内容
 # 输出hello world
-"""
 print('hello world')
 print("hello python")
-"""
+
 
 # TODO 多行注释
 # 第一种：三单引号包裹注释内容
