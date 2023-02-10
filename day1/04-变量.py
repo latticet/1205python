@@ -8,7 +8,7 @@ print('BAAAAAAAAAAAAAAAAAAAAAAAAAAA')
 print('==' * 20)
 
 # TODO 变量
-# 带名字的数据
+# 说明：带名字的数据
 # 名字：变量名
 # 数目：变量值
 
