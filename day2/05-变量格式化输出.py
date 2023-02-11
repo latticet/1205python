@@ -41,8 +41,10 @@ print('姓名：%s， 年龄：%d岁, 身高:%f厘米' % (name, age, height))
 # print('数字：%04d' % num1)
 
 # 验证码
+"""
 import random
 
 random_num = random.randint(1, 999999)
 code = '%06d' % random_num
 print(code)
+"""
