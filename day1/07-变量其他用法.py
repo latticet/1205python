@@ -18,7 +18,6 @@ print(x, y)
 # TODO 多个变量赋相同的值
 m = n = t = 100
 print(m, n, t)
-
 # 语法规范：必须遵守 不遵循SyntaxError
 # 编码规范：不是必须 PEP8
 
