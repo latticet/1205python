@@ -46,6 +46,3 @@ import random
 random_num = random.randint(1, 999999)
 code = '%06d' % random_num
 print(code)
-
-
-
