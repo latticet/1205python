@@ -48,3 +48,17 @@ random_num = random.randint(1, 999999)
 code = '%06d' % random_num
 print(code)
 """
+
+# TODO format格式化
+# 第一种 默认顺序
+name = 'hello'
+age = 18
+print('姓名：{}， 年龄：{}岁'.format(name, age))
+
+# 第二种 根据序号替换
+print('姓名：{0}， 年龄：{1}岁'.format(age, name))
+
+# 第三种 名字替换
+print('姓名：{name}， 年龄：{age}岁'.format(age=11, name='good'))
+print('姓名：{a}， 年龄：{b}岁'.format(b=age, a=name))
+
