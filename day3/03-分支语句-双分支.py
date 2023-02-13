@@ -11,8 +11,8 @@ else:
 # 不成立执行else对应的代码块
 
 # 输入2个数字
-num1 = input('数字1: ')
-num2 = input('数字2：')
+num1 = int(input('数字1: '))
+num2 = int(input('数字2：'))
 
 # 获取最大的数字
 if num1 > num2:
