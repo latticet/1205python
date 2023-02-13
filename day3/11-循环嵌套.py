@@ -34,6 +34,7 @@ while j < 5:
 * * * * 
 * * * * *
 """
+"""
 j = 1
 while j < 6:
     i = 0
@@ -42,7 +43,7 @@ while j < 6:
         i += 1
     print()
     j += 1
-
+"""
 """
 i = 0
 while i < 1:
@@ -70,4 +71,12 @@ print()
 """
 
 # 需求3：99乘法表
-
+# \n:换行  \t:tab键
+i = 1
+while i <= 9:
+    j = 1
+    while j <= i:
+        print(f'{j} * {i} = {i*j}', end='\t')
+        j += 1
+    print()
+    i += 1
