@@ -29,3 +29,15 @@ print('==' * 20)
 list1 = [10, 11, 20, 3, 9, 35]
 list1.reverse()
 print(list1)
+print('==' * 20)
+
+# 问题
+list1 = [10, 11, 20, 3, 9, 35]
+# list.pop()
+print(list1.pop())  # 返回删除的那个元素  None
+print(list1)
+
+# list.sort()
+print(list1.sort())
+
+print(list1.index(10))
