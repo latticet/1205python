@@ -59,10 +59,10 @@ print('--' * 20)
 # 列表反转
 list1 = ['python', 'mysql', 'linux', 'git', 'shell']
 # list.reverse()
-list1.reverse()
+list1.reverse()  # 对原数据进行反转
 print(list1)
 print('--' * 20)
 # list[::-1]
-list2 = list1[::-1]
+list2 = list1[::-1]  # 不影响原数据
 print(list2)
 print(list1)
