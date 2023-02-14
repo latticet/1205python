@@ -25,6 +25,7 @@ print('==' * 20)
 # TODO list.extend(容器)
 # 说明：将容器中的元素依次追加到列表末尾
 # 容器：list，str
+
 list3 = ['python', 'mysql']
 list3.extend('linux')
 print(list3)
