@@ -35,3 +35,10 @@ print('==' * 20)
 list1 = ['python', 'mysql', 'linux', 'git']
 list1.clear()
 print(list1)
+
+# 问题讲解
+list2 = ['python', 'mysql', 'linux', 'git']
+list2.pop()
+
+item = list2.pop()
+print(item)
