@@ -18,6 +18,13 @@ print(list1.index('linux'))
 # list1.index('git')  # 不在抛出错误
 print('--' * 20)
 
+#
+#
+#
+#
+#
+#
+#
 # len(容器)
 # list
 list1 = ['python', 'mysql', 'linux', 'mysql']
