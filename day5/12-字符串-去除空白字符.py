@@ -11,3 +11,7 @@ print('==' * 20)
 # TODO * string.rstrip([str]) 去除右边的str。不写str，去除右边是空格
 print(' hello    '.rstrip())
 print('123hello123'.rstrip('123'))
+
+
+str1 = '12hello12 '
+print(str1.strip('12'))
