@@ -61,7 +61,7 @@ print('①'.isdigit())
 print('1'.isdigit())
 print('==' * 20)
 
-# TODO str.
+# TODO str.isnumeric()
 print('123'.isnumeric())
 print('123'.isnumeric())
 
