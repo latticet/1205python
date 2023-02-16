@@ -28,7 +28,8 @@ print(dict1.values())
 
 # TODO 获取字典中的所有key和value
 # 语法：dict.items()
-print(dict1.items())
+print('11' * 20)
+print(dict1.items())    # [(key, value), (key, value)]
 
 # len() # 通用：获取容器长度
 print(len(dict1))
