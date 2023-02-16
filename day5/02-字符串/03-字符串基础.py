@@ -14,6 +14,7 @@ None
 """
 # 可变
 list
+dict
 # 不可变
 tuple
 str
