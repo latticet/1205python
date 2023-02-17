@@ -42,9 +42,32 @@ while True:
         for card_dict in cards:
             print(f'{card_dict["name"]}\t{card_dict["tel"]}\t{card_dict["addr"]}')
     elif code == '3':
-        print('修改')
+        # 接收要修改的姓名
+        edit_name = input('要修改姓名：')
+
+        # 遍历名片列表,找到要修改的名片字典，然后进行修改操作
+        for card_dict in cards:
+            if edit_name == card_dict['name']:
+                # 进行修改操作
+                card_dict['name'] = input('name:')
+                card_dict['tel'] = input('tel:')
+                card_dict['addr'] = input('addr:')
+                print('修改成功')
+                break
+        else:
+            print('姓名不存在')
     elif code == '4':
-        print('删除')
+        # 接收要删除的姓名
+        del_name = input('要删除的姓名：')
+
+        # 遍历名片列表，找到对应的名片字典， 将其删除
+        for card_dict in cards:
+            if del_name == card_dict['name']:
+                cards.remove(card_dict)
+                print('删除成功')
+                break
+        else:
+            print('姓名不存在')
     elif code == 'quit':
         print('系统退出')
         break
