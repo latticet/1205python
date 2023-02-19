@@ -15,12 +15,15 @@ def fn11(a, b):
 
 
 print(fn11(1, 2))
-print('==' *20)
+print('==' * 20)
 
 
 # TODO 第二种
 def fn2():
     return None
+
+
+print(fn2())
 
 
 # TODO 第三种
