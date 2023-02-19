@@ -12,5 +12,7 @@ def fn1():
     return 1, 2, 'python', 'mysql'
 
 
+# 因为同时返回了多个值，所以返回的数据类型是元组
+# 然后对元组进行了拆包
 a, b, c, d = fn1()
 print(a, b, c, d)
