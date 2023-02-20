@@ -14,7 +14,7 @@ f = open('resource/demo4.txt', mode='w+', encoding='utf8')
 f.write('你好python')
 
 # TODO 光标移动
-# f.seek([int]) 距离文件最左的位置大小
+# f.seek([int]) 用于移动文件读取指针到指定位置。
 f.seek(3)
 
 # 读取内容
