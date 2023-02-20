@@ -8,6 +8,7 @@
 # 文本模式的读
 f = open('resource/demo1.txt', mode='r', encoding='utf8')
 # 二进制模式的读
+
 # f = open('resource/demo1.txt', mode='rb')
 # 读取文件内容
 # TODO read([int])
