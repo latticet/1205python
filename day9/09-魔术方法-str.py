@@ -10,12 +10,11 @@ class Student:
         self.age = age
 
     def __str__(self):
-        return self.name
+        return self.name + ',' + str(self.age)
 
 
 s1 = Student('hello', 10)
 print(s1)
-
 
 s2 = Student('good', 10)
 print(s2)
