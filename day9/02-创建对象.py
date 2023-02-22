@@ -14,7 +14,7 @@ class Person:
 p1 = Person()
 print(p1)      # 16进制
 # print(id(p1))  # 10进制
-print(hex(id(p1)))
+print(hex(id(p1)))  # 10进制转16进制
 
 p2 = Person()
 print(p2)
