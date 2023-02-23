@@ -22,6 +22,7 @@ print(Person().country)
 # 类名.类属性名 = value
 Person.country = 'China'   # 类属性
 # 不能通过对象修改
+# 对象修改只是设置了新的对象属性。
 p1 = Person()
 p1.country = 'xxx'   # 对象属性
 
