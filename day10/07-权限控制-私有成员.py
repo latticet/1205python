@@ -54,6 +54,8 @@ Stu().get_fn()
 print(Person().__b)
 Person().__fn()
 """
+
+# 通过特殊方式，私有成员也可以在外部访问
 # _类名__成员名
 print(Person()._Person__b)
 Person()._Person__fn()
