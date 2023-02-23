@@ -42,13 +42,18 @@ class Stu(Person):
     def get_fn(self):
         self.__fn()
 
+
 # 派生类中不能访问私有成员
 """
 Stu().sub_info()
 Stu().get_fn()
 """
 
-
 # TODO 在类的外部访问私有成员
+"""
 print(Person().__b)
 Person().__fn()
+"""
+# _类名__成员名
+print(Person()._Person__b)
+Person()._Person__fn()
