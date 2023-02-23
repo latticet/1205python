@@ -1,4 +1,4 @@
-# ● type  查看数据类型
+# TODO ● type  查看数据类型
 print(type(10))
 print(type('hello'))
 
@@ -14,12 +14,12 @@ class Demo():
 print(type(Demo()))
 print('==' * 20)
 
-# ● dir  查看对象上所有方法和属性
+# TODO ● dir  查看对象上所有方法和属性
 print(dir(Demo()))
 print('==' * 20)
 
 
-# ● isinstance  查看对象是否属于某个类. True|False
+# TODO ● isinstance  查看对象是否属于某个类. True|False
 # isinstance(obj, class)
 class Demo2:
     pass
