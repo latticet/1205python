@@ -7,5 +7,3 @@ def fn1():
 
 class Demo:
     pass
-
-
