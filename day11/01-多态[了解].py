@@ -12,7 +12,7 @@ class Animal:
         print('动物叫')
 
 
-class Dog(Animal):
+class Dog():
     def call(self):
         # 开始时间
         print('旺旺旺')
@@ -20,7 +20,7 @@ class Dog(Animal):
         # 结束时间 - 开始时间
 
 
-class Cat(Animal):
+class Cat():
     def call(self):
         # 开始时间
         print('喵喵喵')
@@ -28,7 +28,7 @@ class Cat(Animal):
         # 结束时间 - 开始时间
 
 
-class Person(Animal):
+class Person():
     def call(self):
         # 开始时间
         print('你过来啊')
@@ -56,3 +56,4 @@ def do_call(obj):
 
 do_call(Dog())
 do_call(Cat())
+do_call(Person())
