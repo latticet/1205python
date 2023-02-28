@@ -7,6 +7,5 @@ def wrapper():
     return inner
 
 
-inner = wrapper()
-inner()
-
+my_inner = wrapper()
+my_inner()
