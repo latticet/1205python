@@ -31,8 +31,8 @@ def wrapper(fn):  # fn: 要装饰的那个函数
     return inner
 
 
-inner = wrapper(fn1)
-inner()
+fn1 = wrapper(fn1)
+fn1()
 
-inner = wrapper(fn2)
-inner()
+fn2 = wrapper(fn2)
+fn2()
