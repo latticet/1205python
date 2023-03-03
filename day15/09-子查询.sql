@@ -51,3 +51,9 @@ SELECT stu_name FROM student WHERE (class_id, stu_age) =
 (SELECT class_id, max(stu_age) FROM student WHERE class_id = 1);
 
 
+-- 表子查询
+-- 查询分数大于39的所有学生信息
+SELECT * FROM student WHERE stu_score > 39;
+-- 在分数大于39的学生里找出年龄小于30的学生信息
+SELECT * FROM (SELECT * FROM student WHERE stu_score > 39) gt39_student
+WHERE stu_age < 30;
