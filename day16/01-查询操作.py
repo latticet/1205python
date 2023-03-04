@@ -4,7 +4,7 @@ import pymysql
 # TODO 2.创建连接对象
 # 返回数据库连接对象
 # host:mysql服务主机，默认是localhost
-# post:端口号。默认是3306
+# port:端口号。默认是3306
 # user:mysql账号
 # password：mysql密码
 # database：要操作的数据库
