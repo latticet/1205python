@@ -5,7 +5,7 @@ cursor = conn.cursor()
 
 # 根据标题删除新闻
 # 接收用户输入的标题
-title = input('标题：')
+title = input('标题：')  # " or 1 = 1 or "
 sql = f'delete from news where title = "{title}"'
 
 # delete from news where title = "" or 1 = 1 or ""
