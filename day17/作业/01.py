@@ -77,5 +77,5 @@ class News:
 
 if __name__ == '__main__':
     news = News()
-    # news.add()
-    news.del_news_by_title()
+    news.add()
+    # news.del_news_by_title()
